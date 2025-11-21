@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  overflow: hidden;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 300px; /* Same as controls width */
+  right: 0;
+  bottom: 0;
+}
+
+#controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  bottom: 0;
+  background-color: #222;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 0;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+}
+
+.control-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+.control-group span {
+  display: inline-block;
+  width: 40px;
+  text-align: right;
+  background-color: #333;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+canvas {
+  display: block;
+}
