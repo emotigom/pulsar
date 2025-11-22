@@ -1,5 +1,6 @@
 import * as THREE from "three";
-import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import "./style.css";
 import backgroundUrl from "./assets/texture_background_carina.png";
 import beamUrl from "./assets/texture_beam.png";
 
@@ -76,7 +77,7 @@ const params = {
   pulsarMass: 1.4,
   companionMass: 0.8,
   orbitalInclination: 90,
-  pulsarSpinFrequency: 10,
+  pulsarSpinFrequency: 1,
   beamConeAngle: 20,
   beamInclination: 45,
   timeSpeed: 1.0,
