@@ -76,7 +76,7 @@ const params = {
   pulsarMass: 1.4,
   companionMass: 0.8,
   orbitalInclination: 90,
-  pulsarSpinFrequency: 1,
+  pulsarSpinFrequency: 10,
   beamConeAngle: 20,
   beamInclination: 45,
   timeSpeed: 1.0,
